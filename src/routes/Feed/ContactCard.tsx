@@ -24,6 +24,17 @@ const ContactCard: React.FC = () => {
           </a>
         )}
 
+        {CONFIG.profile.linkedin && (
+          <a
+          href={`https://www.linkedin.com/in/${CONFIG.profile.linkedin}`}
+          rel="noreferrer"
+          target="_blank"
+          >
+            <AiFillLinkedin className="icon" />
+            <div className="name">fitcoderofficial</div>
+          </a>
+        )}
+        
         {CONFIG.profile.instagram && (
           <a
             href={`https://www.instagram.com/${CONFIG.profile.instagram}`}
@@ -32,17 +43,6 @@ const ContactCard: React.FC = () => {
           >
             <AiOutlineInstagram className="icon" />
             <div className="name">@gold_tiger_official</div>
-          </a>
-        )}
-
-        {CONFIG.profile.linkedin && (
-          <a
-            href={`https://www.linkedin.com/in/${CONFIG.profile.linkedin}`}
-            rel="noreferrer"
-            target="_blank"
-          >
-            <AiFillLinkedin className="icon" />
-            <div className="name">fitcoderofficial</div>
           </a>
         )}
 
