@@ -23,6 +23,7 @@ const ContactCard: React.FC = () => {
             <div className="name">FitCoderOfficial</div>
           </a>
         )}
+
         {CONFIG.profile.instagram && (
           <a
             href={`https://www.instagram.com/${CONFIG.profile.instagram}`}
@@ -33,7 +34,7 @@ const ContactCard: React.FC = () => {
             <div className="name">@gold_tiger_official</div>
           </a>
         )}
-        )}
+
         {CONFIG.profile.linkedin && (
           <a
             href={`https://www.linkedin.com/in/${CONFIG.profile.linkedin}`}
@@ -44,6 +45,7 @@ const ContactCard: React.FC = () => {
             <div className="name">fitcoderofficial</div>
           </a>
         )}
+
         {CONFIG.profile.email && (
           <a
             href={`mailto:${CONFIG.profile.email}`}
@@ -54,6 +56,8 @@ const ContactCard: React.FC = () => {
             <AiOutlineMail className="icon" />
             <div className="name">toqur1219@gmail.com</div>
           </a>
+        )}
+
       </StyledWrapper>
     </>
   )
