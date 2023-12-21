@@ -20,7 +20,7 @@ const ContactCard: React.FC = () => {
             target="_blank"
           >
             <AiOutlineGithub className="icon" />
-            <div className="name">github</div>
+            <div className="name">FitCoderOfficial</div>
           </a>
         )}
         {CONFIG.profile.instagram && (
@@ -30,7 +30,18 @@ const ContactCard: React.FC = () => {
             target="_blank"
           >
             <AiOutlineInstagram className="icon" />
-            <div className="name">instagram</div>
+            <div className="name">@gold_tiger_official</div>
+          </a>
+        )}
+        )}
+        {CONFIG.profile.linkedin && (
+          <a
+            href={`https://www.linkedin.com/in/${CONFIG.profile.linkedin}`}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiFillLinkedin className="icon" />
+            <div className="name">fitcoderofficial</div>
           </a>
         )}
         {CONFIG.profile.email && (
@@ -41,19 +52,8 @@ const ContactCard: React.FC = () => {
             css={{ overflow: "hidden" }}
           >
             <AiOutlineMail className="icon" />
-            <div className="name">email</div>
+            <div className="name">toqur1219@gmail.com</div>
           </a>
-        )}
-        {CONFIG.profile.linkedin && (
-          <a
-            href={`https://www.linkedin.com/in/${CONFIG.profile.linkedin}`}
-            rel="noreferrer"
-            target="_blank"
-          >
-            <AiFillLinkedin className="icon" />
-            <div className="name">linkedin</div>
-          </a>
-        )}
       </StyledWrapper>
     </>
   )

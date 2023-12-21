@@ -23,7 +23,7 @@ const CONFIG = {
   },
 
   // CONFIG configration (required)
-  link: "https://fitcoder-r13otxjy4-shin-sae-byeok.vercel.app/",
+  link: "https://fitcoder-lab.vercel.app/",
   since: 2023, // If leave this empty, current year will be used.
   lang: "ko-kr", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app/FitCoder's%20Lab.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fhyper-color-logo.svg&widths=500&heights=500", // The link to generate OG image, don't end with a slash
