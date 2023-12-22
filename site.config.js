@@ -2,9 +2,9 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "FitCoder",
-    image: "/avatar1.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "full stack developer",
-    bio: "I develop everything using node.",
+    bio: "I develop everything using node",
     email: "toqur1219@gmail.com",
     linkedin: "FitCoderOfficial",
     github: "FitCoderOfficial",
@@ -12,21 +12,21 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `FitCoder Lab`,
-      href: "https://github.com/FitCoderOfficial",
+      name: `Link2QR`,
+      href: "https://link2qr.com",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "FitCoder Lab",
-    description: "welcome to FitCoder's Lab!",
+    title: "FitCoder Lab 🚀",
+    description: "핏코더의 개발 블로그입니다! welcome to FitCoder's Lab!",
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
-  since: 2022, // If leave this empty, current year will be used.
-  lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
-  ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
+  link: "https://fitcoder-r13otxjy4-shin-sae-byeok.vercel.app/",
+  since: 2023, // If leave this empty, current year will be used.
+  lang: "ko-kr", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
+  ogImageGenerateURL: "https://og-image-korean.vercel.app/FitCoder's%20Lab.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fhyper-color-logo.svg&widths=500&heights=500", // The link to generate OG image, don't end with a slash
 
   // notion configuration (required)
   notionConfig: {
